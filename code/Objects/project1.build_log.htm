@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ahmed EsOoO, fwd, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.37.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.7.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+E:\embedded project\project fwd 1\project1.uvprojx
+Project File Date:  07/29/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+APP/main.c(1): warning: In file included from...
+./MCAL\RCC_INTERFACE.h(3): warning: In file included from...
+./Common\TYPES.h(19): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef unsigned long long int u64 ;
+                 ^
+./Common\TYPES.h(20): warning: 'long long' is an extension when C99 mode is not enabled [-Wlong-long]
+typedef signed long long int s64 ;
+               ^
+APP/main.c(1): warning: In file included from...
+./MCAL\RCC_INTERFACE.h(48): warning: // comments are not allowed in this language [-Wcomment]
+#endif // RCC_INTERFACE_H_INCLUDED
+       ^
+APP/main.c(2): warning: In file included from...
+./MCAL\GPIO_INTERFACE.h(78): warning: // comments are not allowed in this language [-Wcomment]
+#endif // GPIO_INTERFACE_H_INCLUDED
+       ^
+APP/main.c(3): warning: In file included from...
+./MCAL\NVIC_INTERFACE.h(6): warning: // comments are not allowed in this language [-Wcomment]
+// IT  IS NUMBER OF INTERRUPT IN VECTOR TABLE
+^
+APP/main.c(4): warning: In file included from...
+./MCAL\TIMER_INTERFACE.h(25): warning: this function declaration is not a prototype [-Wstrict-prototypes]
+void MTIMER_VoidInit();
+                    ^
+                     void
+./MCAL\TIMER_INTERFACE.h(28): warning: // comments are not allowed in this language [-Wcomment]
+#endif // TIMER_INTERFACE_H_INCLUDED
+       ^
+APP/main.c(7): warning: In file included from...
+./MCAL\RCC_REG.h(16): warning: // comments are not allowed in this language [-Wcomment]
+#endif // RCC_REG_H_INCLUDED
+       ^
+APP/main.c(8): warning: In file included from...
+./MCAL\GPIO_REG.h(61): warning: // comments are not allowed in this language [-Wcomment]
+#endif // GPIO_REG_H_INCLUDED
+       ^
+APP/main.c(11): warning: no previous extern declaration for non-static variable 'Flag' [-Wmissing-variable-declarations]
+u8 volatile Flag = 0;
+            ^
+APP/main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 volatile Flag = 0;
+^
+APP/main.c(13): warning: no previous prototype for function 'MTIMER0_CALLBACK' [-Wmissing-prototypes]
+void MTIMER0_CALLBACK(){
+     ^
+APP/main.c(13): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void MTIMER0_CALLBACK(){
+^
+static 
+APP/main.c(13): warning: this old-style function definition is not preceded by a prototype [-Wstrict-prototypes]
+void MTIMER0_CALLBACK(){
+                     ^
+APP/main.c(42): warning: 'return' will never be executed [-Wunreachable-code-return]
+    return 0;
+           ^
+13 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=2476 RO-data=636 RW-data=0 ZI-data=616  
+".\Objects\project1.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+      Source file:   Device/Source/system_TM4C123.c
+      Include file:  Device/Include/TM4C123/TM4C123.h
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

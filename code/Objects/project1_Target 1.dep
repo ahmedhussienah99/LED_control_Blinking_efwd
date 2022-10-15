@@ -1,0 +1,46 @@
+Dependencies for Project 'project1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\MCAL\GPIO_PROG.c)(0x62E1AF98)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I "../project fwd 1" -I ./Common -I ./APP -I ./MCAL-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/gpio_prog.o -MD)
+I (Common\TYPES.h)(0x5F147692)
+I (Common\MACROS.h)(0x62E29EE3)
+I (MCAL\GPIO_INTERFACE.h)(0x62E28D1C)
+I (MCAL\GPIO_REG.h)(0x62E2CD46)
+I (MCAL\GPIO_CONFIG.h)(0x62E1A987)
+F (.\MCAL\NVIC_PROG.c)(0x62E2F073)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I "../project fwd 1" -I ./Common -I ./APP -I ./MCAL-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/nvic_prog.o -MD)
+I (Common\TYPES.h)(0x5F147692)
+I (Common\MACROS.h)(0x62E29EE3)
+I (MCAL\NVIC_INTERFACE.h)(0x62E2D266)
+I (MCAL\NVIC_REG.h)(0x62E2EFCE)
+I (MCAL\NVIC_CONFIG.h)(0x62DF364A)
+F (.\MCAL\RCC_PROG.c)(0x62E2F518)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I "../project fwd 1" -I ./Common -I ./APP -I ./MCAL-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/rcc_prog.o -MD)
+I (Common\TYPES.h)(0x5F147692)
+I (Common\MACROS.h)(0x62E29EE3)
+I (MCAL\RCC_INTERFACE.h)(0x62E13945)
+I (MCAL\RCC_CONFIG.h)(0x62DF3346)
+I (MCAL\RCC_REG.h)(0x62E2CD5B)
+F (.\MCAL\TIMER_PROG.C)(0x62E3082B)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I "../project fwd 1" -I ./Common -I ./APP -I ./MCAL-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timer_prog.o -MD)
+I (Common\TYPES.h)(0x5F147692)
+I (Common\MACROS.h)(0x62E29EE3)
+I (MCAL\TIMER_INTERFACE.h)(0x62E30337)
+I (MCAL\TIMER_REG.h)(0x62DF2486)
+I (MCAL\TIMER_CONFIG.h)(0x62E2FC00)
+F (.\APP\main.c)(0x62E32E37)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I "../project fwd 1" -I ./Common -I ./APP -I ./MCAL-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (MCAL\RCC_INTERFACE.h)(0x62E13945)
+I (Common\TYPES.h)(0x5F147692)
+I (MCAL\GPIO_INTERFACE.h)(0x62E28D1C)
+I (MCAL\NVIC_INTERFACE.h)(0x62E2D266)
+I (MCAL\TIMER_INTERFACE.h)(0x62E30337)
+I (Common\MACROS.h)(0x62E29EE3)
+I (MCAL\RCC_REG.h)(0x62E2CD5B)
+I (MCAL\GPIO_REG.h)(0x62E2CD46)
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x62E2C84C)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I "../project fwd 1" -I ./Common -I ./APP -I ./MCAL-I./RTE/_Target_1-IC:/Users/EsOoO/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/EsOoO/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252B538)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F9F3E)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (C:\Users\EsOoO\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
